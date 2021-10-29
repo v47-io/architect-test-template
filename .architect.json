@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/v47-io/architect-rs/master/test-resources/schema.json",
+  "name": "Auto Template",
+  "version": "0.x",
+  "questions": [
+    {
+      "name": "author.name",
+      "type": "Text"
+    },
+    {
+      "name": "somePackage",
+      "type": "Identifier"
+    }
+  ],
+  "includeHidden": [
+    "**/*still-included*"
+  ],
+  "exclude": [
+    "*excluded*"
+  ],
+  "renderHbs": true,
+  "hbsExtension": ".handlebars"
+}

@@ -1,0 +1,3 @@
+Hello, this file is not a template
+
+This is also in the explicit path
