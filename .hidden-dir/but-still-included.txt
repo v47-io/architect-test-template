@@ -1,1 +1,3 @@
 Hello {{ author.name }}
+
+This is a modification stored in another branch.
